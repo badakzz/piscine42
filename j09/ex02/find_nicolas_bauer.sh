@@ -1,0 +1,1 @@
+egrep -i "nicolas\sbauer|nicolas/tbauer|bauer\snicolas|bauer\tnicolas" /home/badakzz/42/j09/contacts_easy-ex02.txt | awk '{print $(NF-1)}'

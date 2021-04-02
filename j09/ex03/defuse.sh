@@ -1,0 +1,1 @@
+echo "$(stat -c "%X" -- ./bomb.txt - 1)"
